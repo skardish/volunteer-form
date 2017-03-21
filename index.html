@@ -8,12 +8,15 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700" rel="stylesheet"> 
 </head>
 <body>
 
   <div class="max-length">
-    <h1 class=""> Apply to be a tree planter </h1>
-    <p class=""> Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem. </p>
+    <header>
+      <h1 class=""> Apply to be a tree planter </h1>
+      <p class=""> Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem. </p>
+    </header>
     <form method="POST" action="ttps://formspree.io/skardish@outlook.com">
       <fieldset>
         <h2 class="giga push"> Personal details </h2>
@@ -54,6 +57,7 @@
             <label for="tel">Phone number (optional)</label>
             <input id="tel" type="tel" name="tel">
           </div>
+        </div>
       </fieldset>
       <fieldset>
         <legend class="giga push"> Address </legend>
@@ -129,6 +133,104 @@
           </div>
         </div>
       </fieldset>
+      <fieldset>
+        <legend>Do you have any experience with the following?</legend>
+        <div>
+          <div>
+            <input id="shovels" name="experience" type="checkbox">
+            <label for="shovels">Shovels</label>
+          </div>
+          <div>
+            <input id="hand-held-gps" name="experience" type="checkbox">
+            <label for="hand-held-gps">Hand-held GPS</label>
+          </div>
+          <div>
+            <input id="writing-blogging" name="experience" type="checkbox">
+            <label for="writing-blogging">Writing & blogging</label>
+          </div>
+          <div>
+            <input id="photography" name="experience" type="checkbox">
+            <label for="photography">Photography</label>
+          </div>
+          <div>
+            <input id="trail-hill-climbing" name="experience" type="checkbox">
+            <label for="trail-hill-climbing">Trail & hill climbing</label>
+          </div>
+          <div>
+            <input id="bush-craft" name="experience" type="checkbox">
+            <label for="bush-craft">Bush craft</label>
+          </div>
+          <div>
+            <input id="atvs" name="experience" type="checkbox">
+            <label for="atvs">ATVs</label>
+          </div>
+          <div>
+            <input id="plant-id" name="experience" type="checkbox">
+            <label for="plant-id">Plant identification</label>
+          </div>
+          <div>
+            <input id="special-event-planning" name="experience" type="checkbox">
+            <label for="special-event-planning">Special event planning</label>
+          </div>
+          <div>
+            <input id="speaking-to-groups" name="experience" type="checkbox">
+            <label for="speaking-to-groups">Speaking to groups</label>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Do you have a valid driver's license?</legend>
+        <div>
+          <div>
+            <input id="yes-license" name="license" type="radio">
+            <label for="yes-license">Yes</label>
+          </div>
+          <div>
+            <input id="no-license" name="license" type="radio">
+            <label for="no-license">No</label>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Do you have a pick-up truck you’d be willing to use?</legend>
+        <div>
+          <div>
+            <input id="yes-truck" name="truck" type="radio">
+            <label for="yes-truck">Yes</label>
+          </div>
+          <div>
+            <input id="no-truck" name="truck" type="radio">
+            <label for="no-truck">No</label>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Do you have up-to-date first-aid certification?</legend>
+        <div>
+          <div>
+            <input id="yes-first-aid" name="first-aid" type="radio">
+            <label for="yes-first-aid">Yes</label>
+          </div>
+          <div>
+            <input id="no-first-aid" name="first-aid" type="radio">
+            <label for="no-first-aid">No</label>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Please let us know any comments or questions you may have.</legend>
+        <div>
+          <textarea id="comments" name="comments"></textarea>
+        </div>
+      </fieldset>
+      <div>
+        <button type="submit">Apply</button>
+      </div>
+      <footer>
+        <small>© Tree Hugger International Organization</small>
+      </footer>
+    </form>
+  </div>
 
 </body>
 </html>
