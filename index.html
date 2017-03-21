@@ -15,6 +15,7 @@
     <h1 class=""> Apply to be a tree planter </h1>
     <p class=""> Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem. </p>
     <form method="POST" action="ttps://formspree.io/skardish@outlook.com">
+      <fieldset>
         <h2 class="giga push"> Personal details </h2>
         <div class="">
           <div class="">
@@ -53,12 +54,81 @@
             <label for="tel">Phone number (optional)</label>
             <input id="tel" type="tel" name="tel">
           </div>
-      </form>
+      </fieldset>
       <fieldset>
-        <legend class="giga push"> </legend>
-        <h2> Address </h2>
-
-    </div>
+        <legend class="giga push"> Address </legend>
+        <div>
+          <div>
+            <label for="address">Street address</label>
+            <input id="address" name="address">
+          </div>
+          <div>
+            <label for="city">City</label>
+            <input id="city" name="city">
+          </div>
+          <div>
+            <label for="province">Province</label>
+            <select id="province" name="province">
+              <option value="">Select a province</option>
+              <option>Alberta</option>
+              <option>British Columbia</option>
+              <option>Manitoba</option>
+              <option>New Brunswick</option>
+              <option>Newfoundland & Labrador</option>
+              <option>Northwest Territories</option>
+              <option>Nova Scotia</option>
+              <option>Nunavut</option>
+              <option>Ontario</option>
+              <option>Prince Edward Island</option>
+              <option>Québec</option>
+              <option>Saskatchewan</option>
+              <option>Yukon</option>
+            </select>
+          </div>
+          <div>
+            <label for="postal">Postal code</label>
+            <input id="postal" name="city">
+          </div>
+        </div>
+      </fieldset>
+      <hr>
+      <fieldset>
+        <legend>What activities are you interested in helping with?</legend>
+        <div>
+          <div>
+            <input id="digging-holes" name="activities" type="checkbox">
+            <label for="digging-holes">Digging holes</label>
+          </div>
+          <div>
+            <input id="getting-dirty" name="activities" type="checkbox">
+            <label for="getting-dirty">Getting dirty</label>
+          </div>
+          <div>
+            <input id="lifting-heavy-objects" name="activities" type="checkbox">
+            <label for="lifting-heavy-objects">Lifting heavy objects</label>
+          </div>
+          <div>
+            <input id="driving-people" name="activities" type="checkbox">
+            <label for="driving-people">Driving people</label>
+          </div>
+          <div>
+            <input id="transporting-trees" name="activities" type="checkbox">
+            <label for="transporting-trees">Transporting trees</label>
+          </div>
+          <div>
+            <input id="taking-photos" name="activities" type="checkbox">
+            <label for="taking-photos">Taking photos</label>
+          </div>
+          <div>
+            <input id="online-publishing" name="activities" type="checkbox">
+            <label for="online-publishing">Online publishing</label>
+          </div>
+          <div>
+            <input id="managing-people" name="activities" type="checkbox">
+            <label for="managing-people">Managing people</label>
+          </div>
+        </div>
+      </fieldset>
 
 </body>
 </html>
