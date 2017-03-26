@@ -10,3 +10,36 @@ header {
   background-color: #70ad55;
   color: #fff;
 }
+
+footer {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+input,
+select,
+textarea,
+input[type="checkbox"] + label::before,
+input[type="radio"] + label::before {
+  border-color: #6e8c62;
+}
+
+fieldset {
+  border: none;
+}
+
+hr {
+  border-color: #70ad55;
+}
+
+.btn {
+  background-color: #6e8c62;
+  border-color: #6e8c62;
+  margin-bottom: 4rem;
+  text-align: center;
+  padding: .75rem;
+}
+
+textarea {
+  min-height: 10em;
+}
