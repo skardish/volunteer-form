@@ -40,10 +40,6 @@ hr {
   padding: .75rem;
 }
 
-textarea {
-  min-height: 10em;
-}
-
 .spacegrid div:nth-child(odd) {
   padding-right: 1.5em;
 }
